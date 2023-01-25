@@ -1,1 +1,1 @@
-https://msvanidze.github.io/NFT-preview-card-component/
+https://msvanidze.github.io/NFT-preview-card-component/gi
