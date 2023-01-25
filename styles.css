@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+}
+.main {
+    width: 327px;
+    height: 543px;
+    margin-left: 24px;
+    margin-top: 62px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    position: relative;
+}
+
+.main-img, .active-st {
+    width: 278px;
+    height: 278px;
+    border-radius: 8px;
+    margin-left: 24px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.active-st {
+    position: absolute;
+    display: none;
+    width: 302px;
+    height: 302px;
+}
+
+/* .eye {
+    display: none;
+} */
+
+h1 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27.72px;
+    margin-top: 24px;
+    margin-left: 24px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 12px;
+    margin-left: 24px;
+    color: hsl(215, 51%, 70%);
+}
+
+.crypto {
+    margin-top: 17px;
+    width: 100%;
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    height: 18px;
+    width: 11px;
+    margin-right: 6.48px;
+    margin-left: 24px;
+}
+
+.left span {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18.9px;
+    color: hsl(178, 100%, 50%);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right img {
+    height: 13.33px;
+    width: 13.33px;
+    margin: 0 9.03px 0 99.15px;
+}
+
+.right span, .creation, .name {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.9px;
+    color: hsl(215, 51%, 70%);
+}
+
+.line {
+    width: 278px;
+    height: 1px;
+    margin-left: 24px;
+    margin-top: 16px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.img-white {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    border: solid 1px hsl(0, 0%, 100%);
+    margin: 0 16px 0 24px;
+}
+
+.user img {
+    height: 33px;
+    width: 33px;
+    margin: 0;
+
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 376px)  {
+    .main {
+        width: 350px;
+        height: 596px;
+        margin: auto;
+        margin-top: 152px;
+    }
+
+    .main-img {
+        width: 302px;
+        height: 302px;
+    }
+
+    p {
+        margin-top: 16px;
+    }
+
+    .crypto {
+        margin-top: 24px;
+    }
+
+    .left span {
+        line-height: 20.16px;
+        font-size: 16px;
+    }
+
+    .right img {
+        margin-left: 112.15px;
+    }
+
+    .right span, .creation, .name {
+        font-size: 16px;
+        line-height: 10.16px;
+    }
+
+    .line {
+        width: 302px;
+        margin-top: 24px;
+    }
+
+    .active-st {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .active-st:active {
+        background-color: hsl(178, 100%, 50%);
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    /* .eye {
+        display: block;
+        opacity: 0;
+    }
+
+    .eye:active {
+        opacity: 1;
+    } */
+
+    h1:active,  .name:active {
+        color: hsl(178, 100%, 50%);
+    }
+}
